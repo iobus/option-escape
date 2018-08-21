@@ -1,2 +1,4 @@
-# option-escape
-Option+Escape TTS
+# Option+Escape TTS
+I love how quickly I can do text to speech (TTS) in any application on my Mac.  Just highlight some text and hit **Option + Escape**. (This can be enabled under Settings > Accessibility > Speech > Speak selected text when the key is pressed)  It is such an elegant solution, that I am always frustrated when I want to do the same on my PC.  So I decided to fix it.  
+
+*Option+Escape TTS* emulates the Mac behavior on your PC.  It is an app that runs in the background and waits for an **Option + Escape** keypress (**Alt + Escape** on a Windows keyboard).  Once the hotkey is detected, it tries to copy the selected text to the clipboard and turn it into audio using the Microsoft's built-in speech synthesis APIs.  You can also manually copy text before pressing **Alt + Escape** if automatic clipboard copying fails.
